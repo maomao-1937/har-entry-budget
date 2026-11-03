@@ -1,0 +1,6 @@
+[
+  {"args":["har_entry_budget.py","examples/clean.har","--max-time-ms","100","--max-body-bytes","200"],"exit":0},
+  {"args":["har_entry_budget.py","examples/findings.har","--max-time-ms","100","--max-body-bytes","200"],"exit":1},
+  {"args":["har_entry_budget.py","tests/fixtures/invalid-time.har","--max-time-ms","100","--max-body-bytes","200"],"exit":2},
+  {"args":["har_entry_budget.py","tests/fixtures/duplicate.har","--max-time-ms","100","--max-body-bytes","200"],"exit":2}
+]
